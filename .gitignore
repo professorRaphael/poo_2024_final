@@ -3,6 +3,9 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+DatabaseCreator.java
+ContatoDAO_old_sqlite.java
+ContatoDAO.java
 
 ### STS ###
 .apt_generated
