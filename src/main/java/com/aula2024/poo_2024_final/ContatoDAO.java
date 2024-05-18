@@ -38,7 +38,7 @@ public class ContatoDAO {
              ResultSet resultSet = statement.executeQuery(SELECT_ALL_CONTATOS_SQL)) {
             while (resultSet.next()) {
                 Contato contato = new Contato();
-                contato.setId(resultSet.getInt("id"));
+                //contato.setId(resultSet.getInt("id"));
                 contato.setNome(resultSet.getString("nome"));
                 contato.setTelefone(resultSet.getString("telefone"));
                 contatos.add(contato);

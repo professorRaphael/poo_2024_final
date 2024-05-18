@@ -35,7 +35,7 @@ public class JpaConfig {
     public DataSource dataSource() {
         return DataSourceBuilder.create()
                 .driverClassName("org.postgresql.Driver")
-                .url("jdbc:postgresql://localhost:5432/contatos.db")
+                .url("jdbc:postgresql://localhost:5432/contatos")
                 .username("postgres")
                 .password("123456")
                 .build();

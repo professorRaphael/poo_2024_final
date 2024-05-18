@@ -10,6 +10,7 @@ import java.util.Optional;
 
 @Service
 public class ContatoService {
+
     @Autowired
     private ContatoRepository contatoRepository;
 
@@ -17,20 +18,28 @@ public class ContatoService {
         return contatoRepository.findAll();
     }
 
-    public Contato adicionarContato(Contato contato) {
-        return contatoRepository.save(contato);
+    public void adicionarContato(Contato contato) {
+        contatoRepository.save(contato);
+    }
+
+    public Contato obterContatoPorId(int id) {
+        Optional<Contato> optionalContato = contatoRepository.findById(id);
+        return optionalContato.orElse(null);
     }
 
     public Contato atualizarContato(Contato contato) {
-        return contatoRepository.save(contato);
+        Optional<Contato> contatoExistente = contatoRepository.findById(contato.getId());
+        if (contatoExistente.isPresent()) {
+            Contato c = contatoExistente.get();
+            c.setNome(contato.getNome());
+            c.setTelefone(contato.getTelefone());
+            return contatoRepository.save(c);
+        } else {
+            throw new RuntimeException("Contato não encontrado com ID: " + contato.getId());
+        }
     }
 
     public void excluirContato(int id) {
         contatoRepository.deleteById(id);
-    }
-
-    public Contato obterContatoPorId(int id) {
-        Optional<Contato> contato = contatoRepository.findById(id);
-        return contato.orElse(null); // Retorna o contato se encontrado, caso contrário retorna null
     }
 }

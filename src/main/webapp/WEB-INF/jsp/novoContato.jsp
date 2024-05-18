@@ -5,10 +5,12 @@
   Time: 14:37
   To change this template use File | Settings | File Templates.
 --%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Title</title>
+    <link rel="stylesheet" href="<c:url value='/css/style.css' />">
 </head>
 <body>
 <h1>Novo Contato</h1>

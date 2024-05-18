@@ -28,7 +28,7 @@ public class ContatoController {
     @GetMapping("/contatos/novo")
     public String novoContatoForm(Model model) {
         model.addAttribute("contato", new Contato());
-        return "incluirContato";
+        return "novoContato";
     }
 
     @PostMapping("/contatos")
