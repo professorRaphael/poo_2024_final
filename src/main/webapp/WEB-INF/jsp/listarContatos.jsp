@@ -28,14 +28,15 @@
             <td>${contato.nome}</td>
             <td>${contato.telefone}</td>
             <td>
-                <a href="${pageContext.request.contextPath}/contatos/editar/${contato.id}">Editar</a>
-                <a href="${pageContext.request.contextPath}/contatos/excluir/${contato.id}">Excluir</a>
+                <a class="editar" href="${pageContext.request.contextPath}/contatos/editar/${contato.id}">Editar</a>
+                <a class="excluir" href="${pageContext.request.contextPath}/contatos/excluir/${contato.id}">Excluir</a>
             </td>
         </tr>
     </c:forEach>
 </table>
 
-<a href="${pageContext.request.contextPath}/contatos/novo">Adicionar Novo Contato</a>
+<a class="criar" href="${pageContext.request.contextPath}/contatos/novo">Adicionar Novo Contato</a><br><br>
+<a class="link" href="${pageContext.request.contextPath}/">Voltar para Home</a>
 </body>
 </html>
 

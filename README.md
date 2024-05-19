@@ -129,3 +129,15 @@ Essa estrutura modulariza o projeto, facilitando a manutenção e a escalabilida
 ## Executando a Aplicação
 1. Clone o repositório para a sua máquina local.
 2. Configure o banco de dados PostgreSQL conforme mencionado acima.
+
+## Telas exemplo:
+
+![img.png](img.png)
+
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
+
+![img_3.png](img_3.png)
+
+![img_4.png](img_4.png)

@@ -100,6 +100,70 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+.link{
+    background-color: #007BFF;
+    color: #333333;
+    padding: 15px 25px;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    border-radius: 10px 20px;
+    transition: 0.7s;
+}
+
+.link:hover{
+    background-color: #0056b3;
+    color: #ffffff;
+    transition: 0.7s;
+    text-decoration-color: rgba(0, 0, 0, 1);
+    border-radius: 20px 10px;
+}
+
+.editar{
+    background-color: greenyellow;
+    color: #333333;
+    padding: 15px 25px;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    border-radius: 10px 20px;
+    transition: 0.7s;
+}
+
+.editar:hover{
+    background-color: darkgreen;
+    color: #ffffff;
+    transition: 0.7s;
+    text-decoration-color: rgba(0, 0, 0, 1);
+    border-radius: 20px 10px;
+}
+
+.excluir{
+    background-color: red;
+    color: #333333;
+    padding: 15px 25px;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    border-radius: 10px 20px;
+    transition: 0.7s;
+}
+
+.excluir:hover{
+    background-color: orangered;
+    color: #ffffff;
+    transition: 0.7s;
+    text-decoration-color: rgba(0, 0, 0, 1);
+    border-radius: 20px 10px;
+}
+
+.criar{
+    background-color: cornflowerblue;
+    color: #333333;
+    padding: 15px 25px;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    border-radius: 10px 20px;
+    transition: 0.7s;
+}
+
+.criar:hover{
+    background-color: blue;
+    color: #ffffff;
+    transition: 0.7s;
+    text-decoration-color: rgba(0, 0, 0, 1);
+    border-radius: 20px 10px;
 }

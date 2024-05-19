@@ -20,6 +20,8 @@
     <label for="telefone">Telefone:</label>
     <input type="text" id="telefone" name="telefone" required>
     <button type="submit">Salvar</button>
+    <br>
+    <a class="link" href="${pageContext.request.contextPath}/">Voltar para Home</a>
 </form>
 </body>
 </html>

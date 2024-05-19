@@ -18,8 +18,8 @@
 <h1>Bem-vindo ao Sistema de Contatos</h1>
 <nav>
     <ul>
-        <li><a href="<c:url value='/contatos/novo' />">Incluir Contato</a></li>
-        <li><a href="<c:url value='/contatos' />">Listar Contatos</a></li>
+        <li><a class="link" href="<c:url value='/contatos/novo' />">Incluir Contato</a></li>
+        <li><a class="link" href="<c:url value='/contatos' />">Listar Contatos</a></li>
     </ul>
 </nav>
 </body>

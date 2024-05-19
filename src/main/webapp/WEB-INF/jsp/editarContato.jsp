@@ -28,7 +28,8 @@
     <button type="submit">Atualizar</button>
 </form>
 
-<a href="${pageContext.request.contextPath}/contatos">Voltar para a Lista</a>
+<a href="${pageContext.request.contextPath}/contatos">Voltar para a Lista</a><br>
+<a href="${pageContext.request.contextPath}/">Voltar para Home</a>
 </body>
 </html>
 
