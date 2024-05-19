@@ -25,11 +25,12 @@
     <label for="telefone">Telefone:</label>
     <input type="text" id="telefone" name="telefone" value="${contato.telefone}" required>
 
-    <button type="submit">Atualizar</button>
+    <button type="submit">Atualizar</button><br><br>
+    <a class="link" href="${pageContext.request.contextPath}/contatos">Voltar para a Lista</a><br><br>
+    <a class="link" href="${pageContext.request.contextPath}/">Voltar para Home</a>
 </form>
 
-<a href="${pageContext.request.contextPath}/contatos">Voltar para a Lista</a><br>
-<a href="${pageContext.request.contextPath}/">Voltar para Home</a>
+
 </body>
 </html>
 
