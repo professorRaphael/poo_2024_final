@@ -1,6 +1,7 @@
+## Exemplos anti copia 🕵️‍♂️
 # Gerenciamento de Contatos com Spring Boot
 
-Este é um exemplo simples de uma aplicação Spring Boot para gerenciamento de contatos. O objetivo deste projeto é demonstrar como criar, ler, atualizar e deletar (CRUD) contatos em uma aplicação web.
+<p>Este é um exemplo simples de uma aplicação Spring Boot para gerenciamento de contatos. O objetivo deste projeto é demonstrar como criar, ler, atualizar e deletar (CRUD) contatos em uma aplicação web.<b><u>Ele contém propositalmente algumas falhas e áreas de melhoria, incentivando os alunos a corrigir e aprimorar o código, para seu projeto de extensão e não apenas copie.</b></u></p>
 
 ## Funcionalidades
 
