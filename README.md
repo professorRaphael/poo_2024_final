@@ -58,9 +58,6 @@ gerenciamento-contatos/
 │   │   ├── resources/
 │   │   │   ├── application.properties
 │   │   │   └── templates/
-│   │   │       ├── editarContato.jsp
-│   │   │       ├── listarContatos.jsp
-│   │   │       └── novoContato.jsp
 │   │   └── webapp/
 │   │       └── WEB-INF/
 │   │           ├── jsp/
